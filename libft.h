@@ -6,14 +6,14 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:43 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:16:54 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:11:52 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# define INT32_MAX = 2147483647
-# define INT32_MIN = -2147483647 - 1
+# define INT32_MAX 2147483647
+# define INT32_MIN -2147483648
 
 # include <stdio.h>
 # include <stdlib.h>
@@ -52,12 +52,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 void	*ft_calloc(size_t nmemb, size_t size);
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void	ft_putstr_fd(char *s, int fd);
-void	ft_putnbr_fd(int n, int fd);
-void	ft_putendl_fd(char *s, int fd);
-void	ft_putchar_fd(char c, int fd);
-void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 typedef struct s_list
 {

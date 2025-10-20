@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:16 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:00:17 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:17:21 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ char	*ft_strchr(const char *s, int c)
 	while (s[i] && s[i] != c)
 		i++;
 	if (s[i] == c)
-		return (s + i);
+		return ((char *)s + i);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:11:59 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:34:20 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:28:58 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ret;
-
 
 	if (size != 0 && nmemb > SIZE_MAX / size)
 		return (NULL);

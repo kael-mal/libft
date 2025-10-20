@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:04 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:00:05 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:16:50 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t	i;
 	unsigned char	*string1;
 	unsigned char	*string2;
+	size_t			i;
 
 	i = 0;
 	string1 = (unsigned char *)s1;

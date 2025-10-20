@@ -6,15 +6,16 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 10:59:41 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 10:59:45 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 17:49:21 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include ¨libft.h¨
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {
 	if ((ft_isalpha(c) != 0) || (ft_isdigit(c) != 0))
 		return (1);
-	else reutrn (0);
+	else
+		return (0);
 }

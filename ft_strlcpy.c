@@ -6,13 +6,13 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:22 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:00:23 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:26:29 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, char *src, size_t size)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	j;
