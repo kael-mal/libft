@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:25 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 11:00:25 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/21 11:43:58 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 
+	i = 0;
 	while (s[i] != 0)
 		i++;
 	return (i);

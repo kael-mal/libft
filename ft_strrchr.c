@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:35 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 18:12:46 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/21 12:17:54 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int	i;
+	size_t	i;
 
 	i = ft_strlen(s);
-	while (s[i] != c && i >= 0)
-		i++;
-	if (s[i] == c)
+	while (s[i] != (char)c && i > 0)
+		i--;
+	if (s[i] == (char)c)
 		return ((char *)s + i);
 	return (0);
 }
