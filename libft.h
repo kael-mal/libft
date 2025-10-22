@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:43 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/21 11:40:02 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/22 11:09:43 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,7 @@
 # define INT32_MAX 2147483647
 # define INT32_MIN -2147483648
 
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
-# include <bsd/string.h>
-# include <ctype.h>
-# include <unistd.h>
-# include <strings.h>
 # include <stdint.h>
 
 int		ft_atoi(const char *nptr);
