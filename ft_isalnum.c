@@ -6,7 +6,7 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 10:59:41 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/20 17:49:21 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/21 20:53:10 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isalnum(int c)
 {
-	if ((ft_isalpha(c) != 0) || (ft_isdigit(c) != 0))
+	if (ft_isalpha(c) || ft_isdigit(c))
 		return (1);
 	else
 		return (0);
