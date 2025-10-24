@@ -6,18 +6,17 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 10:52:56 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/22 11:40:49 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/24 09:39:10 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
 
 int	ft_atoi(const char *s)
 {
-	long	ret;
-	int		i;
-	int		sign;
+	int	ret;
+	int	i;
+	int	sign;
 
 	i = 0;
 	ret = 0;
@@ -35,14 +34,5 @@ int	ft_atoi(const char *s)
 		ret = ret * 10 + (s[i] - '0');
 		i++;
 	}
-	return (sign * (int)ret);
+	return (sign * ret);
 }
-
-// int	main()
-// {
-// 	char	*test;
-
-// 	test = "-2147483648";
-// 	printf("%d\n", atoi(test));
-// 	printf("%d\n", ft_atoi(test));
-// }

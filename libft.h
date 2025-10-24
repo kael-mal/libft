@@ -6,14 +6,12 @@
 /*   By: kael-mal <kael-mal@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 11:00:43 by kael-mal          #+#    #+#             */
-/*   Updated: 2025/10/22 11:09:43 by kael-mal         ###   ########.fr       */
+/*   Updated: 2025/10/24 11:10:17 by kael-mal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# define INT32_MAX 2147483647
-# define INT32_MIN -2147483648
 
 # include <stdlib.h>
 # include <stdint.h>
@@ -46,5 +44,7 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 void	*ft_calloc(size_t nmemb, size_t size);
+char	*ft_substr(const char *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif
